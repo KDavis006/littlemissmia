@@ -1,54 +1,3 @@
-.center {
- font-family: 'Times New Roman', Times, serif;
- text-shadow: 1px 1px rgb(0, 157, 255);
- text-align: center;
- color: rgb(255, 0, 0);
-
-}
-
-input[type=text] {
- padding: 6px;
- margin-top: 8px;
- font-size: 17px;
- border: none;
-}
-
-.center button {
-
- padding: 8px;
- margin-top: 10px;
- margin-left: 10px;
- background: orange;
- font-size: 20px;
- border: none;
- cursor: pointer;
-}
-
-.center button:hover {
- background: blue;
- text-decoration: underline;
- text-decoration-color: burlywood;
- font-style: italic;
- color: crimson;
-
-}
-
-header {
- background-color: #0082e6;
-}
-
-* {
- padding: 0;
- margin: 0;
- text-decoration: none;
- list-style: none;
- box-sizing: border-box;
-}
-
-body {
- font-family: montserrat;
-}
-
 nav {
  background: #0082e6;
  height: 80px;
@@ -147,10 +96,4 @@ a:hover {
  #check:checked~ul {
   display: none;
  }
-}
-
-section {
- background: url(bg1.jpg) no-repeat;
- background-size: cover;
- height: calc(100vh - 80px);
 }
