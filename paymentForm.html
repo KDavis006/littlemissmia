@@ -13,7 +13,7 @@
 
  <p>Require fields are followed by *</p>
 
- <h2>Contact information</h2>
+ <h2>Contact Information</h2>
 
  <form>
 
@@ -25,9 +25,61 @@
   <input type="text" id="id" name="id" placeholder=" Email..." />
   <br><br>
 
-  <label for="id">Password: *</label>
-  <input type="password" id="id" name="id" placeholder=" Password..." />
+  <label for="id">Phone Number: *</label>
+  <input type="text" id="id" name="id" placeholder=" Phone Number..." />
   <br><br>
+
+  <h2>Product Information</h2>
+
+  <fieldset>
+
+    <legend>Product</legend>
+
+    <select type="checkbox" id="product">
+    <option for="">--Product Wanted--</option>
+    </select>
+    <br><br>
+    <input type="button" value="Another product">
+    <br><br>
+    <label><strong>Special Instructions</strong></label>
+    <textarea placeholder="Special instructions"></textarea>
+  </fieldset>
+
+  <h2>Size</h2>
+
+  <fieldset>
+
+    <legend>Sizes</legend>
+
+    <label for="hatsizes"><strong>Hat Sizes</strong></label>
+    <select type="dropdown" id = "hatsizes">
+      <option value="">--choose a option if ordering a hat--</option>
+      <option value="s">S</option>
+      <option value="m">M</option>
+      <option value="l">L</option>
+      <option value="xl">XL</option>
+    </select>
+    <br><br>
+    <label for="plushiesizes"><strong>Plushie Sizes</strong></label>
+    <select type="dropdown" id="plushiesizes">
+      <option value="">--choose a option if ordering a Plushie--</option>
+      <option value="s">S</option>
+      <option value="m">M</option>
+      <option value="l">L</option>
+      <option value="xl">XL</option>
+    </select>
+    <br><br>
+    <label for="pouchsizes"><strong>Pouch Sizes</strong></label>
+    <select type="dropdown" id="pouchsizes">
+      <option value="">--choose a option if ordering a Pouch--</option>
+      <option value="s">S</option>
+      <option value="m">M</option>
+      <option value="l">L</option>
+      <option value="xl">XL</option>
+    </select>
+  </fieldset>
+
+
 
   <h2>Payment Information</h2>
 
