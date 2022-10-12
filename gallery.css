@@ -1,0 +1,7 @@
+.container{
+    display: grid;
+}
+.slide{
+    grid-row:1/6;
+    grid-column:1/2;
+}
