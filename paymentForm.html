@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Payment Form</title>
+</head>
+
+<body>
+ <h1>Payment form</h1>
+
+ <p>Require fields are followed by *</p>
+
+ <h2>Contact information</h2>
+
+ <form>
+
+  <label for="id">Name: *</label>
+  <input type="text" id="id" name="id" placeholder=" Name..." />
+  <br><br>
+
+  <label for="id">Email: *</label>
+  <input type="text" id="id" name="id" placeholder=" Email..." />
+  <br><br>
+
+  <label for="id">Password: *</label>
+  <input type="password" id="id" name="id" placeholder=" Password..." />
+  <br><br>
+
+  <h2>Payment Information</h2>
+
+  <label for="card-select">Card Type:</label>
+
+  <select name="card" id="card-select">
+   <option value="">--Please choose an option--</option>
+   <option value="Discover">Discover</option>
+   <option value="mastercard">mastercard</option>
+   <option value="visa">visa</option>
+  </select>
+  <br><br>
+  <label for="id">Cardnumber: *</label>
+  <input type="password" id="id" name="id" placeholder=" Cardnumber..." />
+  <br><br>
+
+  <label for="id">Experation date: *</label>
+  <input type="date" id="id" name="id" placeholder=" mm/dd/yyyy" />
+  <br><br>
+
+  <p><em>Formatted as <br> mm/dd/yyyy</em></p>
+
+  <button type="submit" value="Submit">Validate the Payment</button>
+</body>
+
+</html>
