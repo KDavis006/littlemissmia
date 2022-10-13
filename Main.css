@@ -46,11 +46,13 @@ header {
 }
 
 body {
- font-family: montserrat;
+    font-family: montserrat;
+    background-image: linear-gradient(to right, rgb(41, 236, 236), darkslategray);
+
 }
 
 nav {
- background: #0082e6;
+ background: #075625;
  height: 80px;
  width: 100%;
 }
@@ -84,7 +86,7 @@ nav ul li a {
 
 a.active,
 a:hover {
- background: #1b9bff;
+ background: black;
  transition: .5s;
 }
 
