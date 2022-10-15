@@ -117,58 +117,72 @@ body{
     }
 }
 
- .slider {
-     width: 500px;
-     height: 300px;
-     background-color: yellow;
-     margin-left: auto;
-     margin-right: auto;
-     margin-top: 0px;
-     text-align: center;
-     overflow: hidden;
- }
+/*The webpage has been designed*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 
- .image-container {
-     width: 1500px;
-     background-color: pink;
-     height: 300px;
-     clear: both;
-     position: relative;
-     -webkit-transition: left 2s;
-     -moz-transition: left 2s;
-     -o-transition: left 2s;
-     transition: left 2s;
- }
+body {
+    background-color: #ffffff;
+}
 
- .slide {
-     float: left;
-     margin: 0px;
-     padding: 0px;
-     position: relative;
- }
+/*Basic structure of slider*/
+.container {
+    width: 500px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    border: 10px solid #ffffff;
+    border-radius: 8px;
+    box-shadow: -1px 5px 15px black;
+}
 
- #slide-1:target~.image-container {
-     left: 0px;
- }
+/*Area of images*/
+.wrapper {
+    width: 100%;
+    display: flex;
+    animation: slide 16s infinite;
+}
 
- #slide-2:target~.image-container {
-     left: -500px;
- }
+img {
+    width: 100%;
+}
 
- #slide-3:target~.image-container {
-     left: -1000px;
- }
+/*Animation activated by keyframes*/
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
 
- .buttons {
-     /* position: relative; */
-     
- }
+    25% {
+        transform: translateX(0);
+    }
 
- .buttons a {
-     display: inline-block;
-     height: 15px;
-     width: 15px;
-     border-radius: 50px;
-     background-color: lightgreen;
-     : pointer;
- }
+    30% {
+        transform: translateX(-100%);
+    }
+
+    50% {
+        transform: translateX(-100%);
+    }
+
+    55% {
+        transform: translateX(-200%);
+    }
+
+    75% {
+        transform: translateX(-200%);
+    }
+
+    80% {
+        transform: translateX(-300%);
+    }
+
+    100% {
+        transform: translateX(-300%);
+    }
+}
