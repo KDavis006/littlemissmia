@@ -46,7 +46,11 @@ a:hover {
  cursor: pointer;
  display: none;
 }
-
+#logo{
+    float: left;
+    width:10%;
+    height:100%;
+}
 #check {
  display: none;
 }
