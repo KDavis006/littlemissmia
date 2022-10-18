@@ -19,10 +19,8 @@
   <div class="center">
    <h1>App Development</h1>
 
-   <form>
-    <input type="text" placeholder=" Search...." name="search">
-    <button type="submit">Submit</button>
-   </form>
+   
+    
   </div>
  </Header>
  <nav>
@@ -41,8 +39,84 @@
 
   </ul>
 
+  <script>
+   function myFunction2() {
+     var input, filter, ul, li, a, i, txtValue;
+     input = document.getElementById("myInput");
+     filter = input.value.toUpperCase();
+     ul = document.getElementById("myUL");
+     li = ul.getElementsByTagName("li");
+     for (i = 0; i < li.length; i++) {
+      a = li[i].getElementsByTagName("a")[0];
+      txtValue = a.textContent || a.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+       li[i].style.display = "";
+      } else {
+       li[i].style.display = "none";
+      }
+     }
+    }
+  </script>
  </nav>
- <section></section>
+ <section>
+  
+ </section>
+ <br><br>
+ <input type="text" id="myInput" onkeyup="myFunction2()" placeholder="Search for names.." title="Type in a name">
+ 
+ <ul id="myUL">
+
+  <li><a href="shop.html">Perry The Platypus</a></li>
+  <li><a href="shop.html">Panda</a></li>
+  <li><a href="shop.html">Duck</a></li>
+  <li><a href="shop.html">Boba</a></li>
+  <li><a href="shop.html">Bunny</a></li>
+ 
+  <li><a href="shop.html">Strawberry Frog</a></li>
+  <li><a href="shop.html">Frog</a></li>
+  <li><a href="shop.html">Pink Cuttlefish</a></li>
+  <li><a href="shop.html">Red Cuttlefish</a></li>
+  <li><a href="shop.html">Blue Cuttlefish</a></li>
+ 
+  <li><a href="shop.html">Blue Bees</a></li>
+  <li><a href="shop.html">Minecraft Bee</a></li>
+  <li><a href="shop.html">Yellow Bee</a></li>
+  <li><a href="shop.html">Bee Bucket Hat</a></li>
+  <li><a href="shop.html">Bucket Hat</a></li>
+
+  <li><a href="shop.html">Mini Mushroom</a></li>
+  <li><a href="shop.html">Mushroom Container</a></li>
+  <li><a href="shop.html">Mushroom Dude</a></li>
+  <li><a href="shop.html">Junimo</a></li>
+  <li><a href="shop.html">Seal</a></li>
+
+  <li><a href="shop.html">Dinosaur</a></li>
+  <li><a href="shop.html">ASU</a></li>
+  <li><a href="shop.html">Squshmallow</a></li>
+  <li><a href="shop.html">Blue Octopus</a></li>
+  <li><a href="shop.html">Pouch</a></li>
+ </ul>
+
+  <script>function myFunction2() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+     a = li[i].getElementsByTagName("a")[0];
+     txtValue = a.textContent || a.innerText;
+     if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      li[i].style.display = "";
+     } else {
+      li[i].style.display = "none";
+     }
+    }
+   }
+   </script>
+ <br><br>
+
+
  <aside>
 
 
