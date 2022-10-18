@@ -140,16 +140,10 @@ body {
     border-radius: 8px;
     box-shadow: -1px 5px 15px black;
 }
-<<<<<<< Updated upstream
 .logos1 {
     width: 60%;
     height: 60%;
 }
-=======
-
-
-
->>>>>>> Stashed changes
 
  .slider {
      width: 500px;
@@ -304,8 +298,4 @@ img {
     100% {
         transform: translateX(-900%);
     }
-<<<<<<< Updated upstream
-=======
-
->>>>>>> Stashed changes
 }
