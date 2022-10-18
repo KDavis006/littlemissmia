@@ -123,6 +123,148 @@ img{
     height: 60%;
     border-radius: 25px;
 }
+.logos1{
+    width: auto;
+    height: 60%;
+}
+@media only screen and (max-width:1421px){
+    .p {
+            font-size: 95%;
+        }
+    
+        .h2 {
+            font-size: 95%;
+        }
+    
+        .h1 {
+            font-size: 95%;
+        }
+}
+@media only screen and (max-width:1187px) {
+    .p {
+        font-size: 85%;
+    }
+
+    .h2 {
+        font-size: 85%;
+    }
+
+    .h1 {
+        font-size: 85%;
+    }
+}
+@media only screen and (max-width:1075px) {
+    .p {
+        font-size: 75%;
+    }
+
+    .h2 {
+        font-size: 75%;
+    }
+
+    .h1 {
+        font-size: 75%;
+    }
+}
+@media only screen and (max-width:951px) {
+    .p {
+        font-size: 60%;
+    }
+
+    .h2 {
+        font-size: 60%;
+    }
+
+    .h1 {
+        font-size: 60%;
+    }
+        .button {
+            font-size: 80%;
+        }
+}
+@media only screen and (max-width:790px) {
+    .p {
+        font-size: 45%;
+    }
+
+    .h2 {
+        font-size: 45%;
+    }
+
+    .h1 {
+        font-size: 45%;
+    }
+    .button{
+        font-size: 60%;
+    }
+}
+@media only screen and (max-width:575px) {
+    .p {
+        font-size: 30%;
+    }
+
+    .h2 {
+        font-size: 30%;
+    }
+
+    .h1 {
+        font-size: 30%;
+    }
+        .button {
+            font-size: 60%;
+        }
+}
+@media only screen and (max-width:490px) {
+    .p {
+        font-size: 20%;
+    }
+
+    .h2 {
+        font-size: 20%;
+    }
+
+    .h1 {
+        font-size: 20%;
+    }
+
+    .button {
+        font-size: 40%;
+    }
+}
+@media only screen and (max-width:450px) {
+    .p {
+        font-size: 15%;
+    }
+
+    .h2 {
+        font-size: 15%;
+    }
+
+    .h1 {
+        font-size: 15%;
+    }
+
+    .button {
+        font-size: 30%;
+    }
+}
+@media only screen and (max-width:410px) {
+    .p {
+        font-size: 10%;
+    }
+
+    .h2 {
+        font-size: 10%;
+    }
+
+    .h1 {
+        font-size: 10%;
+    }
+
+    .button {
+        font-size: 20%;
+    }
+}
 
 button{
     border-radius: 25px;

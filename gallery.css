@@ -140,8 +140,9 @@ body {
     border-radius: 8px;
     box-shadow: -1px 5px 15px black;
 }
-
-
+.logos1 {
+    width: 60%;
+    height: 60%;
 }
 
  .slider {
@@ -186,10 +187,10 @@ body {
      left: -1000px;
  }
 
- .buttons {
-     /* position: relative; */
+ /* .buttons {
+     position: relative;
      
- }
+ } */
 
  .buttons a {
      display: inline-block;
@@ -297,3 +298,4 @@ img {
     100% {
         transform: translateX(-900%);
     }
+}

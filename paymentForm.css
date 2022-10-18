@@ -11,6 +11,9 @@ label.logo {
  padding: 0 100px;
  font-weight: bold;
 }
+.logo{
+    align-items: center;
+}
 
 nav ul {
  float: right;
@@ -52,6 +55,10 @@ a:hover {
 }
 body {
     background-image: linear-gradient(to right, rgb(41, 236, 236), darkslategray);
+}
+.logos1 {
+    width: auto;
+    height: 90%;
 }
 @media (max-width: 952px) {
  label.logo {
