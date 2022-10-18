@@ -121,3 +121,31 @@ footer{
     background-color: lightsteelblue;
     border-radius: 25px;
 }
+
+button {
+    border-radius: 25px;
+    background-color: green;
+    width: auto;
+    height: 5%;
+    font-size: 50px;
+    color: white;
+    animation: shake 2s infinite;
+}
+
+@keyframes shake {
+    10% {
+        transform: scale(1.05) rotate(5deg);
+    }
+
+    20% {
+        transform: scale(1.05) rotate(-5deg);
+    }
+
+    30% {
+        transform: scale(1.05) rotate(5deg);
+    }
+
+    40% {
+        transform: none;
+    }
+}

@@ -273,6 +273,25 @@ button{
     height:5%;
     font-size: 30px;
     color:white;
+    animation: shake 2s infinite;
+}
+
+@keyframes shake {
+    10% {
+        transform: scale(1.05) rotate(5deg);
+    }
+
+    20% {
+        transform: scale(1.05) rotate(-5deg);
+    }
+
+    30% {
+        transform: scale(1.05) rotate(5deg);
+    }
+
+    40% {
+        transform: none;
+    }
 }
 
 .img1{
