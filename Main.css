@@ -44,7 +44,10 @@ header {
  list-style: none;
  box-sizing: border-box;
 }
-
+.logos1 {
+    width: auto;
+    height: 90%;
+}
 body {
     font-family: montserrat;
     background-image: linear-gradient(to right, rgb(41, 236, 236), darkslategray);
@@ -61,7 +64,7 @@ label.logo {
  color: white;
  font-size: 35px;
  line-height: 80px;
- padding: 0 100px;
+ /* padding: 0 100px; */
  font-weight: bold;
 }
 
@@ -107,7 +110,7 @@ a:hover {
 @media (max-width: 952px) {
  label.logo {
   font-size: 30px;
-  padding-left: 50px;
+  /* padding-left: 50px; */
  }
 
  nav ul li a {
