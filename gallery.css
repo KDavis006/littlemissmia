@@ -131,7 +131,7 @@ body {
 /*Basic structure of slider*/
 .container {
     width: 500px;
-    position: absolute;
+    position: sticky;
     transform: translate(-50%, -50%);
     top: 50%;
     left: 50%;
@@ -139,6 +139,7 @@ body {
     border: 10px solid #ffffff;
     border-radius: 8px;
     box-shadow: -1px 5px 15px black;
+    margin-top: 475px;
 }
 .logos1 {
     width: auto;
@@ -193,13 +194,13 @@ body {
      
  } */
 
- .buttons a {
+ /* .buttons a {
      display: inline-block;
      height: 15px;
      width: 15px;
      border-radius: 50px;
      background-color: lightgreen;
- }
+ } */
 
 
    
@@ -299,4 +300,13 @@ img {
     100% {
         transform: translateX(-900%);
     }
+}
+
+footer {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    border: 2px solid black;
+    background-color: lightsteelblue;
+    border-radius: 25px;
+    bottom: 0;
 }
