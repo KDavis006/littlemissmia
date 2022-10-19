@@ -74,7 +74,8 @@ body {
  nav ul li a {
   font-size: 16px;
  }
-/* }formatting for smaller devises */
+}
+/* formatting for smaller devises */
 
 @media (max-width: 858px) {
  .checkbtn {
