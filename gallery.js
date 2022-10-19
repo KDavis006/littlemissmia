@@ -4,11 +4,11 @@ showSlides(slideIndex);
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
-
+// makes it slide
 function currentSlide(n) {
   showSlides(slideIndex = n);
 }
-
+// makes it slide
 function showSlides(n) {
   let i;
   let slides = document.getElementsByClassName("mySlides");
