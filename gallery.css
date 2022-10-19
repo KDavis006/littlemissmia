@@ -1,21 +1,23 @@
+/* Container to put slide into */
 .container{
     display: grid;
     grid-template-columns: auto(5, auto);
     grid-template-rows: auto(8, auto);
 }
+/* Puts slide into the container */
 .slide{
     grid-row:1/6;
     grid-column:1/4;
     border: 2px solid black;
 }
 
-
+/* Format for the navbar */
 nav {
     background: #0a5326;
     height: 80px;
     width: 100%;
 }
-
+/* Formats the items in the navbar */
 label.logo {
     color: white;
     font-size: 35px;
@@ -23,18 +25,18 @@ label.logo {
     /* padding: 0 100px; */
     font-weight: bold;
 }
-
+/* Formatting */
 nav ul {
     float: right;
     margin-right: 20px;
 }
-
+/* Formatting */
 nav ul li {
     display: inline-block;
     line-height: 80px;
     margin: 0 5px;
 }
-
+/* Formatting */
 nav ul li a {
     color: white;
     font-size: 17px;
@@ -42,13 +44,13 @@ nav ul li a {
     border-radius: 3px;
     text-transform: uppercase;
 }
-
+/* Formatting for when you hover over the links */
 a.active,
 a:hover {
     background: black;
     transition: .5s;
 }
-
+/* Formatting */
 .checkbtn {
     font-size: 30px;
     color: white;
@@ -58,18 +60,20 @@ a:hover {
     cursor: pointer;
     display: none;
 }
-
+/* Hides the checkbox in the navbar */
 #check {
     display: none;
 }
+/* Creates the gradient for the background */
 body{
     background-image:linear-gradient(to right, rgb(41, 236, 236), darkslategray);
 }
-#logo{
+/* #logo{
     float: left;
     width:10%;
     height:100%;
-}
+} */
+/* Reformat for when screen shrinks below 952px */
 @media (max-width: 952px) {
     label.logo {
         font-size: 30px;
@@ -80,7 +84,7 @@ body{
         font-size: 16px;
     }
 }
-
+/* Reformat for when screen shrinks below 858px */
 @media (max-width: 858px) {
     .checkbtn {
         display: block;
@@ -123,7 +127,7 @@ body{
     margin: 0;
     box-sizing: border-box;
 }
-
+/* Creates white border for slide */
 body {
     background-color: #ffffff;
 }
@@ -141,12 +145,13 @@ body {
     box-shadow: -1px 5px 15px black;
     margin-top: 470px;
 }
+/* Formats the logo in the navbar */
 .logos1 {
     width: auto;
     height: 90%;
     float:left;
 }
-
+/* Helps format the size of the slider */
  .slider {
      width: 500px;
      height: 300px;
@@ -157,7 +162,7 @@ body {
      text-align: center;
      overflow: hidden;
  }
-
+/* Moves images in slide */
  .image-container {
      width: 1500px;
      background-color: pink;
@@ -169,14 +174,14 @@ body {
      -o-transition: left 2s;
      transition: left 2s;
  }
-
+/* Image slide container */
  .slide {
      float: left;
      margin: 0px;
      padding: 0px;
      position: relative;
  }
-
+/* Helps the slide move left */
  #slide-1:target~.image-container {
      left: 0px;
  }
@@ -201,7 +206,7 @@ body {
      border-radius: 50px;
      background-color: lightgreen;
  } */
-
+/* Creates grid for videos */
 .containerV{
     display: grid;
     gap: 2px;
@@ -209,60 +214,67 @@ body {
     grid-template-rows: repeat(2, auto);
     border-radius: 25px;
 }
+/* Creates grid section for ASU_Dino */
 .ASU_Dino{
     grid-column: 1/2;
     grid-row: 1/2;
     border-radius: 25px;
 }
+/* Creates grid section for bee_bucket */
 .bee_bucket {
     grid-column: 2/3;
     grid-row: 1/2;
     border-radius: 25px;
 }
+/* Creates grid section for bee */
 .bee {
     grid-column: 3/4;
     grid-row: 1/2;
     border-radius: 25px;
 }
+/* Creates grid section for cuttlefish */
 .cuttlefish {
     grid-column: 4/5;
     grid-row: 1/2;
     border-radius: 25px;
 }
+/* Creates grid section for cuttlefish2 */
 .cuttlefish2 {
     grid-column: 5/6;
     grid-row: 1/2;
     border-radius: 25px;
 }
+/* Creates grid section for cuttlefish3 */
 .cuttlefish3 {
     grid-column: 1/2;
     grid-row: 2/3;
     border-radius: 25px;
 }
-
+/* Creates grid section for duck */
 .duck {
     grid-column: 2/3;
     grid-row: 2/3;
     border-radius: 25px;
 }
-
+/* Creates grid section for minecraft_bee */
 .minecraft_bee {
     grid-column: 3/4;
     grid-row: 2/3;
     border-radius: 25px;
 }
-
+/* Creates grid section for minecraft_bee2 */
 .minecraft_bee2 {
     grid-column: 4/5;
     grid-row: 2/3;
     border-radius: 25px;
 }
-
+/* Creates grid section for yarn */
 .yarn {
     grid-column: 5/6;
     grid-row: 2/3;
     border-radius: 25px;
 }
+/* Resizes the videos */
 video{
     width:100%;
     height: 100%;
@@ -275,6 +287,7 @@ video{
     animation: slide 30s infinite;
 }
 
+/* Sets size of the images */
 img {
     width: 100%;
 }
@@ -366,6 +379,7 @@ img {
     }
 }
 
+/* Formats the footer */
 footer {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
